@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ant-layout {
+  min-height: 100vh;
+}
+
+.ant-layout-header {
+  height: 64px;
+  padding: 0 24px;
+  background: #fff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.ant-layout-sider {
+  background: #fff;
+  border-right: 1px solid #f0f0f0;
+}
+
+.ant-menu-item {
+  display: flex;
+  align-items: center;
+}
+
+.ant-table-wrapper {
+  background: white;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
